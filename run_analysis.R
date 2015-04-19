@@ -106,4 +106,4 @@ createMeanDataset <- function(data, outfile = 'tidy_data_averaged.txt', writefil
 }
 
 data <- run_analysis()
-createMeanDataset(data)
+outdata <- createMeanDataset(data)
